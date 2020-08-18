@@ -12,8 +12,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class EnviaEmail {
-	private String userName = "fiaelad@gmail.com";
-	private String password = "2020elad";
+	private String userName = "";//conta de email
+	private String password = "";//senha do email
 	
 	private String listaDestinatarios = "";
 	private String nomeRemetente="";
